@@ -5,7 +5,7 @@ class evenEmmit{
 
   on(type, handler) {
     if (!this.container[type]) {
-      this.container[type] = []
+      this.container[type] = [handle]
     }
     this.container[type].push(handler)
   }
